@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Home Page</title>
+</head>
+<body>
+    <nav> 
+        <label class="logo">AITM-22</label>
+        <UL>
+            <Li><a class="active" href="#">Home</a></Li>
+            <Li><a href="gallery.html">Gallery</a></Li>
+            <Li><a href="awareness.html">Awareness</a></Li>
+            <Li><a href="#faq">FAQs</a></Li>
+        </UL>
+    </nav>
+    <div>
+        <h1 class="h1" >A TRIBUTE TO CORONA WARRIORS</h1>
+        <br>
+        <p><h3 class="h3">Doctors who sacrificed their life while saving pateints during the ongoing Covid-19 pandemic</h3></p><br>
+       <a href="https://www.mohfw.gov.in/"><marquee>Latest updates of covid-19 cases in India </marquee></a>
+    </div>
+
+
+    <!--image slider start-->
+    <div class="slider">
+       <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="3.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="4.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="5.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="6.jpg" alt="">
+        </div>
+        <!--slide images end-->
+
+         <!--automatic navigation start-->
+         <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+          <div class="auto-btn6"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+          <!--manual navigation start-->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+          </div>
+    </div>
+    <!--image slider end-->
+  
+        <div id="div1">
+          <img id="img3" src="sani.png" >
+           <img  id="img1" src="mask1.png">
+           <img id="img2" src="distance.png">
+        </div>
+        <br>
+        
+        <div id="div3"> <p class="p1">&NonBreakingSpace; India has been one of the countries hardest struck by COVID 19; with about half a million people died by the virus, India ranks second in the globe, between the United States and Brazil, in terms of COVID mortality. The virus has also had a significant influence on people's occupations, wages, and education, as well as those who work in critical service industries.
+
+          The coronavirus pandemic of 2019–2021 is profoundly changing life as we know it on a worldwide scale. COVID-19 is caused by the coronavirus 2 that causes severe acute respiratory syndrome (SARS-CoV-2). It was initially noticed in Wuhan, China, in December 2019, when an epidemic was discovered. The World Health Organization declared it a pandemic on March 11, 2020, after over three months of considerable continuous spread in various nations around the world.
+        </p>
+        <p class="p1">
+          As of September 4, 2021, about 219 million instances of COVID-19 had been recorded in over 210 countries across the globe, resulting in approximately 4.5 million deaths
+          
+           </p>
+           <br>
+         
+       
+            <h2 class="h2">
+             
+            798 doctors died during second wave of Covid-19 across country:</h2>
+            <p class="p2">
+            Amidst the prevalence of the Covid-19 pandemic, the Indian Medical association said that 798 doctors died during the secong wave of covid-19 across the country of which maximu 128 doctors lost their lives in Delhi,followed by Bihar at 115.
+              </p>
+      </div>
+          
+      <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 6){
+            counter = 1;
+          }
+        }, 5000);
+        </script>
+         
+            
+           
+          
+    
+</body>
+</html>
